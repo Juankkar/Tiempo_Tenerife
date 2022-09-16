@@ -14,3 +14,5 @@ Me ersultó interesante después de ver un video del canal de youtuve de Riffomo
 **Su canal** lo recomiendo mucho si te interesa R: [Riffomonas Project](https://www.youtube.com/c/RiffomonasProject)
 
 ---
+
+En principio este tipo de proyectos no los subo cuando los teno terminados, si no que los voy haciendo sobre la marcha, modificéndolos poco a poco. Con lo cual cabe decir, si hay alguien viendo esto, que es posible que añada cosas en un futuro.
