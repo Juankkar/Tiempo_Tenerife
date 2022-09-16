@@ -120,7 +120,7 @@ Además, en el eje de las x encontraríamos el mes y la línea roja que corta el
 ---
 
 <p align="center">
-< img src= "https://github.com/Juankkar/Tiempo_Tenerife/blob/main/graficos/probabilidad_prec.png">
+    < img src= "https://github.com/Juankkar/Tiempo_Tenerife/blob/main/graficos/probabilidad_prec.png">
 </p>
 
 ---
