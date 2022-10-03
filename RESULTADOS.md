@@ -66,7 +66,7 @@ Para que no haya confusión, el gráfico no dice que verano tiene más precipita
 ---
 
 <p align="center">
-<img src="https://github.com/Juankkar/Tiempo_Tenerife/blob/main/graficos/variacion_mensual_precipitacion.png">
+<img src="https://github.com/Juankkar/Tiempo_Tenerife/blob/main/graficos/variacion_emnsual_precipitacion.png">
 </p>
 
 ---
