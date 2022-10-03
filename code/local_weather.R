@@ -65,7 +65,7 @@ outliers2 <- local_weather %>%
 outliers3 <- local_weather %>%
   ggplot(aes(date, tmin)) +
   geom_line() +
-  labs(title = "¿Outliers Temperatura máxima?",
+  labs(title = "¿Outliers Temperatura mínima?",
        x = "Fecha",
        y = "Temperatura mínima")
 
