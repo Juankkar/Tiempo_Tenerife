@@ -16,7 +16,7 @@ Más o menos he visto que uno de los años de los 70, sobre el 78 hubo inundacio
 ---
 
 <p align="center">
-    <img =src("https://github.com/Juankkar/Tiempo_Tenerife/blob/main/graficos/outliers.png")>
+    <img src="https://github.com/Juankkar/Tiempo_Tenerife/blob/main/graficos/outliers.png">
 </p>
 
 ---
