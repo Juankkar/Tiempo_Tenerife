@@ -73,6 +73,9 @@ outliers3 <- local_weather %>%
 
 plot_grid(outliers1, outliers2, outliers3)
 
+ggsave("outliers.png", path = "C:\\Users\\jcge9\\Desktop\\cuarto_carrera\\Tiempo_Tenerife\\graficos",
+       width =7, height=5)
+
 #------------------------------------------------------------------------------#
 #                       Estudio de la tmax                                     #
 #------------------------------------------------------------------------------#
@@ -109,6 +112,8 @@ local_weather %>%
     plot.subtitle = element_text(hjust = .5),
     axis.text = element_text(color = "white")
   )
+ggsave("aumento_tmax.png", path = "C:\\Users\\jcge9\\Desktop\\cuarto_carrera\\Tiempo_Tenerife\\graficos",
+       width =7, height=4)
 
 local_weather %>% 
   drop_na() %>% 
@@ -148,6 +153,8 @@ local_weather %>%
     plot.subtitle = element_text(hjust = .5)
   )
 
+ggsave("variacion_mensual.png", path = "C:\\Users\\jcge9\\Desktop\\cuarto_carrera\\Tiempo_Tenerife\\graficos",
+       width =7, height=4)
 
 #------------------------------------------------------------------------------#
 #                            Has been this year weeter?                       #
@@ -178,8 +185,8 @@ local_weather %>%
                      guide=NULL) +
   scale_y_continuous(expand = expansion(0)) +
   labs(
-    title = glue("Variación mensual de la precipitación con el paso de los años"),
-    subtitle = glue("<span style = 'color: red'>Rojo:{this_year}</span>, <span style = 'color: darkgray'>gris: resto de años</span> (1946-2021)\nTenerife, Islas Canarias"),
+    title = glue("Variación en la precipitación acumulada con el paso de los años"),
+    subtitle = glue("<span style = 'color: red'>Año {this_year}</span>, <span style = 'color: darkgray'> y resto de años</span> (1946-{this_year-1})\nTenerife, Islas Canarias"),
     y = "Precipitación acumulada",
     x = "Tiempo (meses)"
   ) +
@@ -194,7 +201,10 @@ local_weather %>%
     plot.title = element_text(hjust = .5, face = "bold"),
     plot.subtitle = element_markdown(hjust = .5, face = "bold")
   )
-  
+
+ggsave("variacion_emnsual_precipitacion.png", path = "C:\\Users\\jcge9\\Desktop\\cuarto_carrera\\Tiempo_Tenerife\\graficos",
+       width =7, height=4)
+
 #------------------------------------------#
 # Estudio de correlación usando facet wrap #
 #------------------------------------------#
@@ -253,11 +263,17 @@ tmax_prcp %>%
     axis.title.y.left = element_text(color = "orange"),
     axis.text.y.left = element_text(color = "orange")
     )
-  
+
+ggsave("temp_vs_prec.png", path = "C:\\Users\\jcge9\\Desktop\\cuarto_carrera\\Tiempo_Tenerife\\graficos",
+       width =7, height=4.5)
+
 tmax_prcp %>% 
   ggplot(aes(tmax, prcp)) +
   geom_point() +
   geom_smooth(method = "lm", se=F)
+
+ggsave("correlacion.png", path = "C:\\Users\\jcge9\\Desktop\\cuarto_carrera\\Tiempo_Tenerife\\graficos",
+       width =7, height=4)
 
 cor.test(tmax_prcp$tmax, tmax_prcp$prcp, method = "spearman")
 
@@ -310,6 +326,9 @@ local_weather %>%
     strip.placement  = "outside",
     strip.background = element_blank()
   )
+
+ggsave("probabilidad_prec.png", path = "C:\\Users\\jcge9\\Desktop\\cuarto_carrera\\Tiempo_Tenerife\\graficos",
+       width =8, height=5.5)
 
 #-------------------------------------------------------------------------------------#
 # Creating a sliding window with the slider R package to quantify the level of drought#
@@ -376,5 +395,7 @@ drougth_data %>%
     plot.subtitle = element_markdown(hjust = .5, face = "bold")
   )
 
+ggsave("anio_mas_seco.png", path = "C:\\Users\\jcge9\\Desktop\\cuarto_carrera\\Tiempo_Tenerife\\graficos",
+       width =7, height=4)
 
 

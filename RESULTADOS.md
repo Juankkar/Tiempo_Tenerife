@@ -1,15 +1,15 @@
 # ***Resultados que he ido obteniendo.***
 
-### **Aún no he terminado la serie de este vídeo, mi intención es ir completandola y entender más sobre el cambio climático en Canarias. Tmabién me gustaría añadir algún analisis propio. Se me ocurren unos cuantos. Pero tendré que buscar tiempo. Me gustaría buscar en la bibliografía alguna cosa que ora también, ***tiempo al tiempo*****
+### **Aún no he terminado la serie de este vídeo, mi intención es ir completandola y entender más sobre el cambio climático en Canarias. También me gustaría añadir algún analisis propio. Se me ocurren unos cuantos. Pero tendré que buscar tiempo. Me gustaría buscar en la bibliografía alguna cosa que otra también. ***Tiempo al tiempo*****
 
-Una cosa que si que me gustaría comentar, es que yo no sy de Tenerife, sino de Gran Canaria. Había una estación de NOAA aquí, pero la data no estaba muy complicada de coger ningún sitio desafortunadamente, no sé cómo pueden estar la de las otras islas, o si ni siquiera NOAA tiene alguna estación en esta, pero la realidad es que los datos de Tenerife son muy buenos. En concreto, la estación parece estar en Santa Cruz de Tenerife.
+Una cosa que si que me gustaría comentar, es que yo no soy de Tenerife, sino de Gran Canaria. Había una estación de NOAA aquí, pero los datos no estaban del todo bien tomados. También me parece que había de otras islas, pero no sé cómo pueden estar tomados las de estas. Pero la realidad es que los datos de Tenerife son muy buenos. En concreto, la estación parece estar en Santa Cruz de Tenerife.
 
-#### **También aviso que el/los secripts están hechos para que se vayan actualizando con el paso del tiempo. Con lo que es muy probable que si copias y pegas es código en tu ordenador locar obtengas un resultado más avanzado de que estña escrito ahora**
+#### **También aviso que el/los secripts están hechos para que se vayan actualizando con el paso del tiempo. Con lo que es muy probable que si copias y pegas el código en tu ordenador local obtengas un resultado más avanzado de que el que esta escrito ahora**
 
 
-## 1) **Existen outliers en nuestra data**
+## **1) Existen outliers en nuestra data**
 
-Parece que no hay ningúna oulier descarado en cuanto a la teperatura máxima y la temperatura mínima de la base de datos. Si es cierto que en la precipitación, en uno de los últimos años de la década de los 70 hay uno, pero viéndolo, no me sorprendería que fuera un año en el que hubo precipitaciones feas por Tenerife. 
+Parece que no hay ningún oulier descarado en cuanto a la teperatura máxima y la temperatura mínima de la base de datos. Si es cierto que en la precipitación, en uno de los últimos años de la década de los 70 hay uno, pero viéndolo, no me sorprendería que fuera un año en el que hubo precipitaciones particularmente altas en Tenerife. 
 
 Más o menos he visto que uno de los años de los 70, sobre el 78 hubo inundaciones en algunas zonas de Tenerife. Mi intención es profundizar más sobre el tema, así que no lo voy a filtrar, al menos por el momento. 
 
@@ -73,16 +73,14 @@ Para que no haya confusión, el gráfico no dice que verano tiene más precipita
 
 Por otro lado, el siguente gráfico muestra esta vez, lo que ha llovido de cada mez, no la precipitación aculumada. 
 
-La intención era estudiar un año especialmente seco, en este caso el año 1973. El título está un poco perjudicado, usé la librería de ```ggtext``` que te permite escribir markdown en ```ggplo2``` pero he aprendido por las malas que puede dar este tipo de problesmas. 
+La intención era estudiar un año especialmente seco, en este caso el año 1973.
 
-En ese sentido creo que camiaré seguramente el título del gráfico y la línea azul pasará a ser el año actual.
-
-Sin embargo los resultados tal y como están ahora, muestran que el verano de ese año fue especialmente seco. La precipitación de julio a agosto fue menor que el 95 % de los años anteriores desde 1946.
+Los resultados tal y como están ahora, muestran que el verano de ese año fue especialmente seco. La precipitación de julio a agosto/~septiembre fue menor que el 95 % de los años anteriores desde 1946.
 
 ---
 
 <p align="center">
-<img src="https://github.com/Juankkar/Tiempo_Tenerife/blob/main/graficos/variacion_mensual_precipitacion.png">
+<img src="https://github.com/Juankkar/Tiempo_Tenerife/blob/main/graficos/anio_mas_seco.png">
 </p>
 
 ---

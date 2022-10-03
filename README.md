@@ -1,8 +1,8 @@
-# **Estudio del aumento de la temperatura y precipitaciónven Tenerife desde 1946 a la hora actual.**
+# **Estudio de la variación en la temperatura y precipitaciones en Tenerife, desde 1946 a la actualidad.**
 
 ### Se usará data de una de las estaciones de la website NOAA
 
-Me ersultó interesante después de ver un video del canal de youtuve de Riffomonas Project, adjunto su canal e información del autor:
+Me resultó interesante después de ver un video del canal de youtube de Riffomonas Project, adjunto su canal e información del autor:
 
 --- 
 
@@ -15,4 +15,4 @@ Me ersultó interesante después de ver un video del canal de youtuve de Riffomo
 
 ---
 
-En principio este tipo de proyectos no los subo cuando los teno terminados, si no que los voy haciendo sobre la marcha, modificéndolos poco a poco. Con lo cual cabe decir, si hay alguien viendo esto, que es posible que añada cosas en un futuro.
+En principio este tipo de proyectos no los subo cuando los tengo terminados, si no que los voy haciendo sobre la marcha, modificéndolos poco a poco. Con lo cual, cabe decir, que es posible que añada cosas en un futuro.
