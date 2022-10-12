@@ -100,7 +100,7 @@ local_weather %>%
   labs(x="Año",
        y="ºC",
        title = "Aumento de los ºC en Canarias",
-       subtitle= "Estación meteorológica de Santa Cruz de Tenarife, datos normalizados") +
+       subtitle= "Estación meteorológica de Santa Cruz de Tenarife") +
   #theme_classic() +
   theme(
     #panel.grid = element_blank(),
@@ -240,7 +240,7 @@ tmax_prcp %>%
   geom_line(color="orange", size=1) +
   geom_line(aes(y = prcp_tr), size= 1, color = "skyblue") +
   labs(title = "Tenperatura máxima y prescipitacion acumulada anual",
-       subtitle = "Estación meteorológica Santa Cruz de Tenerife, Islas Canatias",
+       subtitle = "Estación meteorológica Santa Cruz de Tenerife, Islas Canarias",
        x = "Año",
        y = "Temperatura máxima (ºC)") +
   scale_y_continuous(labels = seq(17,23, 1),
