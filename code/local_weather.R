@@ -58,7 +58,7 @@ outliers1 <- local_weather %>%
 outliers2 <- local_weather %>%
   ggplot(aes(date, prcp)) +
   geom_line() +
-  labs(title = "¿Outliers Temperatura máxima?",
+  labs(title = "¿Outliers Precipitación?",
        x = "Fecha",
        y = "Precipitación")
 
